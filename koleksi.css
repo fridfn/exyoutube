@@ -1,0 +1,451 @@
+*, html, body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+  scroll-behavior: smooth;
+}
+
+.container-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  background: #212121;
+}
+
+.text-header {
+  color: white;
+  font-size: 23px;
+  font-weight: 410;
+  margin-left: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.icon-back {
+  object-fit: contain;
+  color: blue;
+  width: 25px;
+  margin-left: 5px;
+  margin-top: 8px;
+  cursor: none;
+  background-color: #212121;
+  border-radius: 50px;
+  transition: all .5s ease-in-out;
+}
+
+.icon-back:hover {
+  background-color: #4e5858;
+  border-radius: 70px;
+}
+
+.icon-header {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  justify-content: flex;
+}
+
+.text-dots3 {
+  width: 25px;
+  color: white;
+  cursor: none;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 20px;
+  padding-left: 10px;
+  margin-right: 10px;
+  border-radius: 50px;
+  background-color: #212121;
+  text-decoration: none;
+  transition: all .5s ease-in-out;
+}
+
+.text-dots3:hover {
+  background-color: #4e5858;
+  border-radius: 55px;
+}
+
+.icons {
+  object-fit: contain;
+  margin-left: 20px;
+  width: 30px;
+  padding: 3px;
+  cursor: none;
+  background-color: #212121;
+  border-radius: 50px;
+  transition: all .5s ease-in-out;
+}
+
+.icons:hover {
+  background-color: #4e5151;
+  border-radius: 50px;
+}
+
+/*DI ATAS INI FULL CODINGAN HEADER ( NAVBAR DOWNLOAD )*/
+
+
+
+
+
+/*DI ATAS INI ADALAH FULL CODINGAN CONTENT YANG UDAH DI DOWNLOAD START*/
+
+.text-download {
+  color: white;
+  font-size: 13px;
+  padding-top: 60px;
+  background: #212121;
+  padding-left: 11px;
+}
+
+.container {
+  background: #212121;
+  height: 230vh;
+}
+
+.container-card {
+  display: flex;
+  transition: all .7s ease-in-out;
+}
+
+.container-card:hover {
+  display: flex;
+  background: #313131;
+}
+
+video {
+  margin-left: 9px;
+  margin-top: 15;
+  margin-right: 9px;
+  background: #4e5151;
+}
+
+.title-content {
+  margin-top: 13px;
+  font-weight: smooth;
+  color: white;
+  font-size: 12px;
+}
+
+.span {
+  display: flex;
+  align-items: center;
+  margin-top: 2px;
+}
+
+.icon-channel {
+  width: 10px;
+  background-color: #b6b6b6;
+  border-radius: 50px;
+  margin-right: 3px;
+  margin-top: 2px;
+  animation: RGB 7s infinite;
+}
+
+@keyframes RGB {
+  0% {
+    background-color: #ff005e;
+  }
+  20% {
+    background-color: #0fcfff;
+  }
+  40% {
+    background-color: #ffac00;
+  }
+  60% {
+    background-color: #23ff7e;
+  }
+  80% {
+    background-color: #e900ff;
+  }
+  100% {
+    background-color: #ff00e9;
+  }
+}
+
+.name-channels {
+  font-size: 10.5px;
+  color: #b2b2b2;
+  margin-top: 4px;
+}
+
+.views-content {
+  color: #b2b2b2;
+  font-size: 10.5px;
+}
+
+.dots-text {
+  padding-left: 148px;
+}
+
+.dots-3 {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 7px;
+  border-radius: 60px;
+  margin-right: 6px;
+  transition: all .5s ease-in-out;
+}
+
+
+.dots-3:hover {
+  background-color: #4e5858;
+  border-radius: 50px;
+}
+
+.pembatas {
+  background: #383938;
+  padding: 1px;
+  width: 100%;
+}
+
+
+/*DI ATAS INI ADALAH FULL CODINGAN CONTENT YANG UDAH DI DOWNLOAD ENDZ*/
+
+
+
+
+
+/*DI BAWAH INI ADALAH CODINGAN DOWNLOAD CONTENT YANG BLOM DI DOWNLOAD START*/
+
+
+.title-recomended-download {
+  background: #111111;
+  padding-top: 20px;
+  padding-bottom: 8px;
+}
+
+.title-undownload {
+  color: white;
+  padding-left: 11px;
+  font-size: 12px;
+  font-weight: smooth;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.icon-down {
+  margin-left: auto;
+  width: 25px;
+  margin-right: 15px;
+  margin-top: 20px;
+  border-radius: 50px;
+  padding: 5px;
+  background: #111111;
+  transition: all .5s ease-in-out;
+}
+
+.icon-down:hover {
+  border-radius: 50px;
+  padding: 3px;
+  background: #4e5151;
+}
+
+
+/*DI BAWAH INI ADALAH CODINGAN DOWNLOAD CONTENT YANG BLOM DI DOWNLOAD ENDS*/
+
+
+
+/*CODINGAN BAWAHS INI ADALAH FULL CODINGAN  NOTE TEXT START*/
+
+
+.information {
+  margin-top: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.information-text {
+  color: white;
+  font-size: 12px;
+  margin-left: 8px;
+}
+
+.information-text-note {
+  padding-top: 8px;
+  color: #ff0085;
+  font-size: 12px;
+  margin-left: 8px;
+}
+
+
+/*CODINGAN ATAS INI ADALAH FULL CODINGAN  NOTE TEXT ENDS*/
+
+
+
+
+
+/*CODINGAN BAWAH INI ADALAH FULL CODINGAN FOOTER BAR START*/
+
+.footer {
+  background: #212121;
+  border-top: 1px solid #4e5151;
+  bottom: 0;
+  padding-right: 100%;
+  position: fixed;
+}
+
+.footer-bar {
+  display: flex;
+  text-align: center;
+  color: white;
+  padding: 2px;
+}
+
+.button-footer {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  margin-left: 10px;
+  border: 1.5px solid white;
+  background: #212121;
+  line-height: 5px;
+  font-weight: 200;
+  font-size: 50px;
+  transition: all .5s ease 0s;
+}
+
+.button-footer a {
+  text-decoration: none;
+  list-style-type: none;
+  font-weight: 250;
+  color: white;
+  cursor: none;
+  transition: all .5s ease 0s;
+}
+
+.button-footer a:hover {
+  color: #3e3e3e;
+}
+
+.button-footer:hover {
+  border: 2px solid #3e3e3e;
+}
+
+.shorts {
+  margin-left: 7px;
+  word-spacing: 5px;
+}
+
+.footer-title {
+  font-size: 11px;
+  padding-left: 7.4%;
+  padding-right: 4%;
+  text-align: center;
+  margin-top: 6px;
+}
+
+.icon-footer {
+  width: 25px;
+  margin-bottom: 3px;
+}
+
+.icon-footer-beranda {
+  width: 22px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  object-fit: contain;
+  margin-left: 2px;
+  background-color: white;
+}
+
+.icon-footer-koleksi {
+  width: 25px;
+  margin-bottom: 3px;
+  border-radius: 5px;
+  animation: RGB-ICON 13s infinite;
+}
+
+@keyframes RGB-ICON {
+  0% {
+    background-color: #ff005e;
+  }
+  20% {
+    background-color: #0fcfff;
+  }
+  40% {
+    background-color: #ffac00;
+  }
+  60% {
+    background-color: #23ff7e;
+  }
+  80% {
+    background-color: #e900ff;
+  }
+  100% {
+    background-color: #ff00e9;
+  }
+}
+.icon-footer-short {
+  width: 21px;
+  margin-bottom: 2px;
+  object-fit: contain;
+  margin-left: 11px;
+  background-color: white;
+}
+
+.icon-footer-subscription {
+  width: 27px;
+  margin-bottom: 1px;
+  object-fit: contain;
+  margin-left: 2px;
+  background-color: white;
+}
+
+.beranda-text {
+  text-decoration: none;
+  color: white;
+  font-size: 11px;
+}
+
+.shorts-text {
+  text-decoration: none;
+  color: white;
+  font-size: 11px;
+  margin-left: 8px;
+}
+
+
+.subscription-text {
+  text-decoration: none;
+  color: white;
+  font-size: 11px;
+}
+
+.koleksi-text {
+  text-decoration: none;
+  color: white;
+  font-size: 11px;
+  animation: RGB-KOLEKSI 13s infinite;
+}
+
+@keyframes RGB-KOLEKSI {
+  0% {
+    color: #ff005e;
+  }
+  20% {
+    color: #0fcfff;
+  }
+  40% {
+    color: #ffac00;
+  }
+  60% {
+    color: #23ff7e;
+  }
+  80% {
+    color: #e900ff;
+  }
+  100% {
+    color: #ff00e9;
+  }
+}
+
+
+
+/*CODINGAN ATAS INI ADALAH FULL CODINGAN FOOTER BAR ENDS*/

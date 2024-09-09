@@ -1,0 +1,486 @@
+*, body, html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+  scroll-behavior: smooth
+}
+
+header {
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-bottom: 1px solid #4e5151;
+}
+
+.logo {
+  margin-right: auto;
+  color: white;
+  padding-top: 6;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.logo-img {
+  width: 35px;
+  object-fit: contain;
+  padding-right: 2px;
+}
+
+.icon-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.header-icon {
+  margin-left: 15px;
+  margin-right: 8px;
+  padding: 1.5px;
+  width: 28px;
+  border-radius: 50px;
+  object-fit: contain;
+  transition: all .5s ease-in-out;
+}
+
+.header-icon:hover {
+  background-color: #4e5151;
+  border-radius: 50px;
+}
+
+.bar-eksploration {
+  background-color: black;
+  padding-bottom: 10px;
+  padding-top: 13px;
+  border-bottom: 1px solid #4e5151;
+}
+
+.bar-title-name {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.box-eksplorasi {
+  background-color: #212121;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 4px;
+  margin-left: 15px;
+  margin-right: auto;
+}
+
+.eksplorasi-icon {
+  animation: RGB-ICON 10s infinite;
+  border-radius: 50px;
+  object-fit: contain;
+  width: 23px;
+  margin-right: 5px;
+}
+
+.title-eksplorasi {
+  color: white;
+  font-size: 15px;
+}
+
+.another-box {
+ display: flex
+}
+
+.another-title-name {
+  color: white;
+  background-color: #212121;
+  border-radius: 13px;
+  font-size: 15px;
+  height: 100%;
+  padding-right: 7px;
+  padding-left: 7px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1.1px solid #4e5151;
+  margin-right: 5px;
+  transition: all .5s ease-in-out;
+}
+
+.another-title-name:hover {
+  background-color: #a8a8a8;
+  border: 1.1px solid black;
+}
+
+
+
+/*CODINGAN FORM*/
+form input {
+  margin-top: 10px;
+}
+.search {
+  width: 130px;
+  height: 25px;
+  color: white;
+  margin-left: auto;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 2px;
+  transition: all .7s ease-in-out;
+}
+.search:hover {
+  background-color: #212121;
+  border-radius:  2px;
+}
+.button {
+  height: 25px;
+  background-color: #212121;
+  border: 1px solid white;
+  border-radius: 2px;
+  font-weight: 500;
+  display: inline-block;
+  color: white;
+  padding: 4px;
+  transition: all .5s ease 0s;
+}
+.button:hover {
+  background: black;
+  color: #a900ff;
+  border: 1px solid #a900ff;
+}
+/*CODINGAN FORM*/
+
+/*CODINGAN ATAS INI ADALAH FULL CODINGAN HEADER END*/
+
+
+
+
+
+/*INI CODINGAN BAWAH ADALAH FULL ISI CONTENT VIDEO START*/
+
+
+  .background-content {
+    background: #212121;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 420vh;
+  }
+
+  .container-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  .card-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  
+  video {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+  
+  .descripsi-content {
+    display: flex;
+    margin-right: auto;
+    background: #212121;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .info-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .tittle-content {
+    font-size: 12px;
+    color: white;
+    margin-top: 3px;
+  }
+  
+  .description-content {
+    font-size: 10px;
+    color: #939393;
+    padding-top: .5px;
+    object-fit: contain;
+  }
+  
+  .absolute {
+    position: absolute;
+  }
+  
+  .foto-channel {
+    width: 43px;
+    margin-left: 8px;
+    margin-right: 10px;
+    border-radius: 50px;
+  }
+  
+  .button-content {
+    background-color: #212121;
+    border: none;
+    color: white;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 5px;
+    margin-top: 25px;
+    display: block;
+    font-size: 20px;
+    line-height: 3px;
+    transition: all .45s ease-in-out;
+  }
+  
+  .button-content:hover {
+    background-color: #4e5151;
+    border-radius: 50px;
+  }
+  
+  .button-a {
+    padding-left: 1.2px;
+    padding-left: 1.2px;
+    text-decoration: none;
+    color: white;
+    cursor: none;
+  }
+  
+  .pembatas {
+    background: #383838;
+    padding: 3px;
+    width: 100%;
+}
+
+/*INI CODINGAN ATAS ADALAH FULL ISI CONTENT VIDEO ENDS*/
+
+
+
+
+
+/*CODINGAN BAWAH INI ADALAH FULL CODINGAN FOOTER BAR START*/
+
+.footer {
+  background: #212121;
+  bottom: 0;
+  padding-right: 100%;
+  position: fixed;
+  border-top: 1.5px solid #383938;
+}
+
+.footer-bar {
+  display: flex;
+  text-align: center;
+  color: white;
+}
+
+.button-footer {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  margin-left: 10px;
+  border: 1.5px solid white;
+  background: #212121;
+  line-height: 5px;
+  font-weight: 200;
+  font-size: 50px;
+  transition: all .5s ease 0s;
+}
+
+.button-footer a {
+  text-decoration: none;
+  list-style-type: none;
+  font-weight: 250;
+  color: white;
+  cursor: none;
+  transition: all .5s ease 0s;
+}
+
+.button-footer a:hover {
+  color: #3e3e3e;
+}
+
+.button-footer:hover {
+  border: 2px solid #3e3e3e;
+}
+
+.shorts {
+  margin-left: 7px;
+  word-spacing: 5px;
+}
+
+.footer-title {
+  font-size: 11px;
+  padding-left: 7.4%;
+  padding-right: 4%;
+  text-align: center;
+  margin-top: 6px;
+}
+
+.icon-footer {
+  width: 25px;
+  margin-bottom: 3px;
+}
+
+.icon-footer-beranda {
+  width: 22px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  object-fit: contain;
+  margin-left: 2px;
+  animation: RGB-ICON 11s infinite;
+}
+
+@keyframes RGB-ICON {
+  0% {
+    background-color: #ff005e;
+  }
+  20% {
+    background-color: #0fcfff;
+  }
+  40% {
+    background-color: #ffac00;
+  }
+  60% {
+    background-color: #23ff7e;
+  }
+  80% {
+    background-color: #e900ff;
+  }
+  100% {
+    background-color: #ff00e9;
+  }
+}
+
+.icon-footer-koleksi {
+  width: 25px;
+  margin-bottom: 3px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.icon-footer-short {
+  width: 21px;
+  margin-bottom: 2px;
+  object-fit: contain;
+  margin-left: 11px;
+  background-color: white;
+}
+
+.icon-footer-subscription {
+  width: 27px;
+  margin-bottom: 1px;
+  object-fit: contain;
+  margin-left: 2px;
+  background-color: white;
+}
+
+.icon-footer-koleksi {
+  width: 25px;
+  margin-bottom: 3px;
+  background-color: white;
+}
+
+.beranda-text {
+  text-decoration: none;
+  color: white;
+  font-size: 11px;
+  animation: RGB-BERANDA 11s infinite;
+}
+
+@keyframes RGB-BERANDA {
+  0% {
+    color: #ff005e;
+  }
+  20% {
+    color: #0fcfff;
+  }
+  40% {
+    color: #ffac00;
+  }
+  60% {
+    color: #23ff7e;
+  }
+  80% {
+    color: #e900ff;
+  }
+  100% {
+    color: #ff00e9;
+  }
+}
+
+.shorts-text {
+  text-decoration: none;
+  color: white;
+  font-size: 11px;
+  margin-left: 8px;
+}
+
+.subscription-text {
+  text-decoration: none;
+  color: white;
+  font-size: 11px;
+}
+
+.koleksi-text {
+  text-decoration: none;
+  color: white;
+  font-size: 11px;
+}
+
+
+/*CODINGAN ATAS INI ADALAH FULL CODINGAN FOOTER BAR ENDS*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CODINGAN ATAS INI ADALAH FULL CODINGAN INFO BOTTOM START*/
+  
+  .footer-bottom-text {
+    text-align: center;
+    font-size: 7px;
+    text-align: center;
+    color: #212121;
+    animation: textFooter 10s 3;
+  }
+  
+  @keyframes textFooter {
+    0% {
+      color: #212121;
+    }
+    85% {
+      color: red;
+    }
+  }
+  
+  .footer-bottom {
+  background: #212121;
+  width: 160%;
+  }
+
+/*CODINGAN ATAS INI ADALAH FULL CODINGAN  INFO BOTTOM END*/
